@@ -1,0 +1,3 @@
+select city from station where REGEXP_LIKE(city,'^[aeiou]', 'i'); 
+/* regex experession is used SELECT * FROM Email Addresses
+WHERE Email Address ~* '%@chartio.com' " REGEXP_LIKE(city, '^[aeiou]' - cap for starts with and elements with braces are limits)  i for case sensitive */
