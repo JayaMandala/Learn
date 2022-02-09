@@ -1,0 +1,1 @@
+SELECT (SELECT count(CITY) as val1 from STATION) - (SELECT count(DISTINCT CITY) as val2 from STATION) as VAL3;
